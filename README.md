@@ -1,5 +1,8 @@
 
-C++ Class Generator
+#C++ Class Generator
+
+
+
 A simple command-line utility for generating C++ class template files with Orthodox Canonical Form (OCF) compliance.
 Overview
 This tool automatically generates pairs of .hpp (header) and .cpp (implementation) files for C++ classes. Each generated class includes:
@@ -12,16 +15,21 @@ Destructor
 All generated classes follow the Orthodox Canonical Form (OCF), ensuring proper memory management and consistent behavior.
 Requirements
 
-C++17 compatible compiler (for std::filesystem support)
+C++ compatible compiler (for std::filesystem support)
 Standard C++ libraries
 
 Compilation
 Compile the program using:
-bashg++ class_generator.cpp -o class_generator -std=c++17
+c++ class_generator.cpp -o class_generator 
 Usage
-bash./class_generator [class_name1] [class_name2] ... [class_nameN]
-Example
-bash./class_generator animal person vehicle
+'''
+./class_generator [class_name1] [class_name2] ... [class_nameN]
+'''
+Example: 
+
+ 
+./class_generator animal person vehicle
+
 This will generate the following files:
 
 Animal.hpp and Animal.cpp
