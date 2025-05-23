@@ -98,9 +98,7 @@ ClassName::~ClassName(void)
 
 You can modify the class templates in the `createClassFiles()` function to include additional methods, member variables, or change the formatting to match your coding style preferences.
 
-## License
 
-This software is available under the MIT License.
 
 ## Contributing
 
